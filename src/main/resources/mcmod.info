@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "simplelamps",
+  "name": "Simple Lamps",
+  "description": "A Mod that adds some simple Lamps.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "www.fyreek.com",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Fyreek"],
+  "credits": "Fyreek for the mod.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
