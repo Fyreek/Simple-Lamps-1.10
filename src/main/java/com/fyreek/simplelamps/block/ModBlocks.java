@@ -14,16 +14,19 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModBlocks {
 
     public static BlockBase basicLampBlock;
+    public static BlockBase flatWallLampBlock;
 
     public static void preInit() {
 
         basicLampBlock = new BlockBasicLamp("basiclamp_block");
+        flatWallLampBlock = new BlockFlatWallLamp("flatwalllamp_block");
 
         registerBlocks();
     }
 
     public static void registerBlocks() {
         registerBlock(basicLampBlock, "basiclamp_block");
+        registerBlock(flatWallLampBlock, "flatwalllamp_block");
     }
 
     public static void registerBlock(BlockBase block, String name) {
@@ -33,6 +36,7 @@ public class ModBlocks {
 
     public static void registerRenders() {
         registerRender(basicLampBlock);
+        registerRender(flatWallLampBlock);
     }
 
     public static void registerRender(BlockBase block) {

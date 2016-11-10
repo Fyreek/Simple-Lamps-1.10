@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "simplelamps:flatwalllamp_block", "x": 90, "y": 180 },
+    "facing=east": { "model": "simplelamps:flatwalllamp_block", "x": 90, "y": 270 },
+    "facing=south": { "model": "simplelamps:flatwalllamp_block", "x": 90 },
+    "facing=west": { "model": "simplelamps:flatwalllamp_block", "x": 90, "y": 90 },
+    "facing=up": { "model": "simplelamps:flatwalllamp_block", "x": 180 },
+    "facing=down": { "model": "simplelamps:flatwalllamp_block" }
+  }
+}
